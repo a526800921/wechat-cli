@@ -1,0 +1,6 @@
+/* components/html-parse/html-parse.wxss */
+@import "../../utils/wxParse/wxParse.wxss";
+
+.html-parse {
+   
+}

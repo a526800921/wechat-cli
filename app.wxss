@@ -1,0 +1,28 @@
+/**app.wxss**/
+view, 
+button {
+  --primary: #4bb13f;
+}
+
+page {
+  height: 100%;
+}
+
+button {
+  border-radius: 0;
+  background-color: #fff;
+}
+
+button::after {
+  border: none;
+}
+
+.input-placeholder,
+.textarea-placeholder,
+.placeholder {
+  color: #999;
+}
+
+.textarea-ios-diff {
+  margin: -14rpx -10rpx;
+}

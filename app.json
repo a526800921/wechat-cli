@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/home/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 20
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {}
+}

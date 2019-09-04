@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<view>pages/home/home.wxml</view>
+<view>data: {{data}}</view>
+<view>state: {{state}}</view>
+<view>getter: {{getter}}</view>
+<view>computed: {{computed}}</view>
