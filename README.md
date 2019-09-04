@@ -22,7 +22,7 @@
    * 在js中用法与vue相同
    * state 的改变会同步改变
    * 需使用 this.setData(data) 方法才会触发改变
-   * watch 只能做浅层的监听 xxx() {}，深层无法监听 ['xxx.yyy']() {}
+   * watch 只能做浅层的监听 xxx() {}，深层无法监听 \['xxx.yyy'\]() {}
    * computed 值的改变是在 this.setData(data, callback) 的 callback 中进行的改变，故使用同步的时候注意 computed 的值的使用。建议： await new Promise(res => this.setData(data, res))
 
 > 微信api
