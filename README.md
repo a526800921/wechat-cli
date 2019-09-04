@@ -8,6 +8,7 @@
    * 可以按照vuex的基本写法来使用
    * 在js中使用 mapState(state) { return { test: state.test } } 来渲染页面，test 将赋值到 data 数据中，故在js中使用 test 需 this.data.test
    * 在js中使用 mapGetters(getters) { return { test: getters.test } } 渲染页面，同 state
+   * mapState mapGetters 具体用法参考 pages/home/home.js
    * 可使用 this.$store.dispatch('module/name', data)
    * 可使用 this.$store.commit('module/name', data)
    * 在 render/addStore.js 中添加各模块 store

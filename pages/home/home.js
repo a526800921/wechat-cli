@@ -13,10 +13,10 @@ global._Page({
       state: state.App.test
     }
   },
-  mapGetters(getter) {
+  mapGetters(getters) {
 
     return {
-      getter: getter.App.test
+      getter: getters.App.test
     }
   },
   computed: {
